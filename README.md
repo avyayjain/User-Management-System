@@ -9,6 +9,10 @@ Follow these steps to run the project
 
 2. open postgressql and create a database according to your preference
 
-3. now open src/utils/constants.py and enter all the details regarding the database such as DATABASE_USER, DATABASE_PASS, DATABASE_URL, DATABASE_DB.
+3.now go to the "backend-intern-assignment" to use the project
 
-4. now run the project by opening the browser and typing "http://localhost:8000/docs"
+4.now open src/utils/constants.py and enter all the details regarding the database such as DATABASE_USER, DATABASE_PASS, DATABASE_URL, DATABASE_DB.
+
+5.now run the project by typing uvicorn main:app --host 0.0.0.0 --port 8000
+ 
+6.now you can acces the api by opening the browser and typing "http://localhost:8000/docs"
